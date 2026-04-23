@@ -6,6 +6,49 @@
 
 body{
     font-family: 'Segoe Ui', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: antiquewhite;
+    background: linear-gradient(to right, white, antiquewhite);    
+}
+
+
+.CONTAINER-SEARCH-ITEM {
     
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+}
+.CONTAINER-TABLE {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+}
+
+#page-title{
+    padding: 10px;
+    margin: 2px;
+}
+.CONTAINER-SEARCH-ITEM input{
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.CONTAINER-SEARCH-ITEM button{
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #007afc;
+    color: white;
+    cursor: pointer;
+}
+
+.CONTAINER-SEARCH-ITEM button:hover{
+    background-color: #004a99;
+    transition-duration: 3ms;
 }
